@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   background-image: url("/images/bg-header-mobile.png");
+=======
+  background-image: url(/FeMentor_challenge_02/blob/master/images/bg-header-mobile.png);
+>>>>>>> 96f13d0c35895683cc098d5c5f0492e93e0a4503
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
