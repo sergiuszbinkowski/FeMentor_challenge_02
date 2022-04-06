@@ -1,0 +1,21 @@
+body {
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+}
+#title-name {
+  font-family: Bai Jamjuree;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 140px;
+}
+#title-description {
+  font-family: Bai Jamjuree;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-top: 140px;
+  width: 1030px;
+  margin: 100px auto 100px auto;
+}
