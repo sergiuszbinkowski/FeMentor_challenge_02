@@ -1,6 +1,7 @@
 body {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-image: url("https://github.com/sergiuszbinkowski/FeMentor_challenge_02/blob/master/images/bg-header-desktop.png");
 =======
   background-image: url(/FeMentor_challenge_02/blob/master/images/bg-header-mobile.png);
@@ -8,6 +9,9 @@ body {
 =======
   background-image: url("/images/bg-header-mobile.png");
 >>>>>>> 91d0adac20874bb1064fa3e3a1d1fc28a20d0274
+=======
+  background-image: url("./images/bg-header-mobile.png");
+>>>>>>> ae7087fdce059160aff08156c0638ed593dc6052
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
