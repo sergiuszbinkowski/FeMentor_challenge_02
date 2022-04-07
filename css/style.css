@@ -1,15 +1,17 @@
 body {
   background-image: url("https://raw.githubusercontent.com/sergiuszbinkowski/FeMentor_challenge_02/master/images/bg-header-desktop.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
+  background-size: contain;
   padding-top: 100px;
+}
+#title-section {
+  text-align: center;
 }
 .title-name {
   font-family: Bai Jamjuree;
   font-size: 4rem;
   font-weight: 600;
-  margin-top: 140px;
+  margin: 140px auto 0 auto;
 }
 .title-description {
   font-family: Bai Jamjuree;
@@ -40,6 +42,13 @@ body {
 .computer-img {
   width: 50%;
   position: relative;
-  right: 500px;
+  right: 150px;
   margin-right: 100px;
+  float: left;
+}
+.feature-box {
+  text-align: left;
+  width: 50%;
+  height: 600px;
+  display: inline;
 }
