@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://raw.githubusercontent.com/sergiuszbinkowski/FeMentor_challenge_02/master/images/bg-header-desktop.png");
+  background-image: url("/images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-size: contain;
   padding-top: 100px;
@@ -29,7 +29,7 @@ body {
   width: 300px;
   height: 80px;
   box-shadow: 0px 5px black;
-  margin-bottom: 200px;
+  margin: 20px;
 }
 .download-button-mac {
   border: 0ch;
@@ -37,18 +37,32 @@ body {
   width: 300px;
   height: 80px;
   box-shadow: 0px 5px black;
-  margin-bottom: 200px;
+  margin: 20px;
 }
-.computer-img {
-  width: 50%;
-  position: relative;
-  right: 150px;
-  margin-right: 100px;
-  float: left;
+
+.title-buttons {
+  width: 800px;
+  padding: 20px;
+  margin: 0 auto;
 }
-.feature-box {
-  text-align: left;
-  width: 50%;
-  height: 600px;
-  display: inline;
+@media (max-width: 1030px) {
+  .title-description {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  .title-description {
+    width: 400px;
+  }
+  .title-buttons {
+    width: 400px;
+  }
+  .title-name {
+    margin: 100px auto 0 auto;
+  }
+}
+@media (max-width: 400px) {
+  .title-description {
+    width: 100px;
+  }
 }
